@@ -1,34 +1,14 @@
-# alchemy
-
 An Electron application with React and TypeScript
 
-## Recommended IDE Setup
+### 安装nodejs
+https://nodejs.org/zh-cn
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+### 使用yarn作为包管理器
+npm install -g yarn
 
-## Project Setup
+### 项目启动与打包说明
+- **启动项目**：依次输入 `yarn` 和 `yarn dev`
+- **打包项目**：需要管理员权限
+  - Windows 环境：`yarn build:win`
+  - 未打包版本：`yarn build:unpack`
 
-### Install
-
-```bash
-$ npm install
-```
-
-### Development
-
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
